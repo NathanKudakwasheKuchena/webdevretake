@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up Page</title>
+        <link rel='stylesheet' href="signup.css">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div id="particles-js"></div>
+        <header>
+            <nav id="nav-bar">
+                <a href="./index.html" class="nav-link">&larr; Back to landing page</a>
+            </nav>
+            <h1 id="title">Droplet Sign Up Form</h1>
+            <p id="description">Create an account below</p>
+        </header>
+
+        <form id="signup-form">
+            <label id="first-name-label" for="first-name">
+                Firstname
+                <br>
+                <input type="text" name="first-name" id="first-name" placeholder="Type in your firstname" required>
+            </label>
+            <br>
+            <br>
+
+            <label id="last-name-label" for="last-name">
+                Lastname
+                <br>
+                <input type="text" name="last-name" id="last-name" placeholder="Type in your lastname" required>
+            </label>
+            <br>
+            <br>
+
+            <label id="email-label" for="email">
+                Email
+                <br>
+                <input type="email" id="email" placeholder="Type in your email address" required>
+            </label>
+            <br>
+            <br>
+
+            <label id="age-label" for="age">
+                Age
+                <br>
+                <input type="number" id="age" min="1" max="150" placeholder="Type in your age">
+            </label>
+            <br>
+            <br>
+
+            <label id="property-location-label" for="property-location">
+                Property Location
+                <br>
+                <input type="text" name="property-location" id="property-location" placeholder="Type in the location of your house" required>
+            </label>
+            <br>
+            <br>
+
+            <label id="meter-number-label" for="meter-number">
+                Meter Number
+                <br>
+                <input type="number" name="meter-number" id="meter-number" placeholder="Type in your meter number" required>
+            </label>
+            <br>
+            <br>
+
+            <label id="password-label" for="password">
+                Password
+                <br>
+                <input type="password" name="password" id="password" placeholder="Type in your password" required>
+            </label>
+            <br>
+            <br>
+                
+                <input type="submit" value="Create Account" id="submit" />     
+        </form>
+        <script type="text/javascript" src="js/particles.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

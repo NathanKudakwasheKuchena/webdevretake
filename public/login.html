@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log In Page</title>
+        <link rel='stylesheet' href="login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="particles-js"></div>
+        <header>
+            <nav id="nav-bar">
+                <a href="./index.html" class="nav-link">&larr; Back to landing page</a>
+            </nav>
+            <h1 id="title">Droplet Login Form</h1>
+            <p id="description">Sign in below</p>
+        </header>
+
+        <form id="login-form" action="../src/routers/index.js/" method="POST">
+           
+
+            <label id="email-label" for="email">
+                Email
+                <br>
+                <input type="email" id="email" placeholder="Type in your email address" required>
+            </label>
+            <br>
+            <br>
+
+            <label id="password-label" for="password">
+                Password
+                <br>
+                <input type="password" name="password" id="password" placeholder="Type in your password" required>
+            </label>
+            <br>
+            <br>
+                
+                <input type="submit" value="Login" id="submit" />     
+        </form>
+
+        <script type="text/javascript" src="js/particles.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,166 @@
+
+body{
+    font-family: 'Alata';
+    background-image: linear-gradient(to right, rgb(202, 30, 24) , rgb(219, 219, 23));
+    color: white;
+}
+
+#particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, rgb(202, 30, 24) , rgb(219, 219, 23));
+    background-size: cover;
+    height: 200%;
+    z-index: -1;
+}
+
+
+header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+#nav-bar{
+    position: absolute;
+    left: 2%;
+    top: 4%;
+}
+
+.nav-link{
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.1s;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+
+
+#signup-form{
+    margin-left: 23%;
+    padding: 25px;
+    border: solid 2px white;
+    margin-right: 20%;
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 35px;
+    background-image: linear-gradient(to right, rgb(150, 18, 117) , rgb(64, 212, 212));
+}
+
+#first-name-label{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#last-name-label{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#property-location-label{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#password-label{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#email-label{
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+#age-label{
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+#meter-number-label{
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+#first-name{
+    padding: 15px;
+    border-radius: 5px;
+    width: 90%;
+    font-family: 'Roboto';
+    font-size: 3vmin;
+}
+
+#last-name{
+    padding: 15px;
+    border-radius: 5px;
+    width: 90%;
+    font-family: 'Alata';
+    font-size: 3vmin;
+}
+
+#property-location{
+    padding: 15px;
+    border-radius: 5px;
+    width: 90%;
+    font-family: 'Alata';
+    font-size: 3vmin;
+}
+
+#password{
+    padding: 15px;
+    border-radius: 5px;
+    width: 90%;
+    font-family: 'Alata';
+    font-size: 3vmin;
+}
+
+#email{
+    padding: 15px;
+    border-radius: 5px;
+    width: 90%;
+    font-family: 'Alata';
+    font-size: 3vmin;
+}
+
+#age{
+    padding: 15px;
+    border-radius: 5px;
+    width: 90%;
+    font-family: 'Alata';
+    font-size: 3vmin;
+}
+
+#meter-number{
+    padding: 15px;
+    border-radius: 5px;
+    width: 90%;
+    font-family: 'Alata';
+    font-size: 3vmin;
+}
+
+
+
+#submit{
+    padding: 15px;
+    width: 96.5%;
+    font-family: 'Alata';
+    font-size: 3vmin;
+    background-color: #310526;
+    color: white;
+    border-style: none;
+}
+
+#submit:hover{
+    background-color: #1c82aa;
+    cursor: pointer;
+    
+}
+
